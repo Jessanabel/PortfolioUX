@@ -489,7 +489,7 @@ display: flex;
   font-weight: 700;
   margin-bottom: 10px;
   
-  color: #fff;
+  color: #f7f7f7;
 }
 
 .hero-content p {
@@ -712,7 +712,7 @@ display: flex;
 /*-----------------------------------------------------------------------------------*/
 #about {
   width: 100%;
-  height: 600px;
+  height: auto;
   background:white;
 
   
@@ -738,30 +738,33 @@ display: flex;
 }
 
 #about .about-descr .p-heading {
-  font-family: "arial", serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
   text-align: left;
   max-width: 70%;
   margin-left: -480px;
+  font-weight: initial;
+ 
 }
 
-#about .about-descr .separator {
-  max-width: 70%;
+#about .about-descr .p-heading .text {
+
+  font-weight: bold;
+ 
+}
+
+#about .about-descr .separator  {
+  max-width: 90%;
   margin-bottom: 0;
   text-align: left;
   margin-left: -480px;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 
 }
 
-#about .about-descr .separator {
-  max-width: 70%;
-  margin-bottom: 0;
-  text-align: left;
-  margin-left: -480px;
-  
-
-}
 
 .btn {
   border-radius: 100px;
@@ -1514,7 +1517,7 @@ blockquote {
   background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 70px;
-  max-height: 500px;
+  
 }
 
 #footer .socials-media {
